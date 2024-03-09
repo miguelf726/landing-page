@@ -96,7 +96,7 @@ button {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  padding:  48px 0;
+  padding: 48px 0;
 }
 
 .info-title {
@@ -120,7 +120,7 @@ button {
   height: 150px;
   width: 150px;
   border-style: solid;
-  border-color: rgb(11, 176, 241);
+  border-color: #3882f6;
   border-width: 4px;
   border-radius: 20px;
   display: flex;
@@ -142,23 +142,57 @@ button {
 }
 
 .quote-container {
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding: 24px;
 }
 
 .quote {
-    max-width: 800px;
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
 }
 
 .quote-author {
-    max-width: 800px;
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* SIGN UP */
+
+#sign-up {
+  height: 300px;
+}
+
+.sign-up-container {
+  height: 150px;
+  background-color: #3882f6;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sign-up-title,
+.sign-up-para {
+  
+  color: white;
+}
+
+.sign-up-title  {
     font-size: 24px;
+  font-weight: bold;
+}
+
+.sign-up-btn {
+    border-style: solid;
+    border-color: white;
     font-weight: bold;
+    font-size: 20px;
+    padding: 8px 32px;
 }
