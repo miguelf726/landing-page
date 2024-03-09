@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Header */
+
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 0 0 64px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+nav div {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  height: 300px;
+  padding: 44px 22px;
+  gap: 16px;
+}
+
+.header {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: auto;
+  align-items: flex-start;
+}
+
+.header-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.header-para {
+  font-size: 18px;
+}
+
+.header-img {
+  width: 600px;
+  padding: 16px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: auto;
+}
+
+button {
+  padding: 8px 24px;
+  border-radius: 8px;
+  color: white;
+  background-color: #3882f6;
+}
+
+/* INFORMATION */
+
+.info-container {
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.info-title {
+  font-size: 36px;
+}
+
+.products {
+  display: flex;
+  margin-top: 64px;
+}
+
+.product {
+ width: 200px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.product-img {
+  height: 150px;
+  width: 150px;
+  border-style: solid;
+  border-color: rgb(11, 176, 241);
+  border-width: 4px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-description {
+    width: 150px;
+    }
